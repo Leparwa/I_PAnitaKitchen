@@ -90,8 +90,14 @@ section {
   }
   .drinks{
     display: flex;
+    margin-top: 10%;
+    width: 70%;
     justify-content: center;
     height:60%;
+  }
+  .tabText, p{
+   margin-top: 50px;
+    margin-left: 0px;
   }
   .wrapper3{
     width:100%; 
