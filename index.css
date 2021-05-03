@@ -133,7 +133,7 @@ section {
     background-color: #111;
   }
   .active {
-    background-color: #c5293e;
+    background-color: #f3f3f3;
   }
   .contentBody{
     display: flex;
@@ -144,6 +144,36 @@ section {
   .section4{
     margin: 20px;
 
+  }
+  .clientsFeedBack{
+    display: flex;
+    background-color: white;
+    min-height: 50%;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 12%;
+    justify-content: center;
+    border-style: solid;
+    
+  }
+  ul{
+    background-color: gray;
+  }
+  .wrapper5{
+    background:url(./projectAssets/fastFood1.jpg); 
+    width:100%; 
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contactUsForm{
+        
+    display: flex;
+    justify-content: center;
+    background-color:rgba(231, 33, 59, 0.4); 
+    width:100%; 
+    height:100%;
   }
   /* div {
     background-color: rgb(145, 2, 0, 0.4);
