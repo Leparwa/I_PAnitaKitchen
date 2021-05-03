@@ -32,6 +32,7 @@ body{
     height: 200px;
       
 } 
+
 section {
     background:url(./projectAssets/fastFood2.jpg); 
     width:319px; 
@@ -39,12 +40,12 @@ section {
     background-repeat: no-repeat;
   }
   
-  div {
+  /* div {
     background-color: rgb(145, 2, 0, 0.4);
     width:319px; 
     height:200px;
     
-  }
+  } */
   section {
     background:url(./projectAssets/fastFood2.jpg); 
     width:319px; 
@@ -52,12 +53,12 @@ section {
     background-repeat: no-repeat;
   }
   
-  div {
+  /* div {
     background-color: rgb(145, 2, 0, 0.4);
     width:319px; 
     height:200px;
     
-  }
+  } */
   section {
     background:url(./projectAssets/fastFood2.jpg); 
     width:319px; 
@@ -65,12 +66,12 @@ section {
     background-repeat: no-repeat;
   }
   
-  div {
+  /* div {
     background-color: rgb(145, 2, 0, 0.4);
     width:319px; 
     height:200px;
-    
-  }
+     */
+  /* } */
   section {
     background:url(./projectAssets/fastFood2.jpg); 
     width:319px; 
@@ -79,26 +80,26 @@ section {
   }
   .container2{
     margin-top: 10%;
-    background:url(./projectAssets/fastFood1.jpg); 
     display: flex;
-    width: 70%;
-    background-color:rgba(231, 33, 59, 0.4); 
+    width: 80%;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 79%);
   }
   .drinks{
-    display: flex;
-    margin-top: 10%;
-    width: 70%;
-    justify-content: center;
-    height:60%;
+  display: block;
+    margin-top: 3%;
+    width: 90%;
+   
+    height:90%;
+    background-color: white;
   }
-  .tabText, p{
+  /* .tabText, p{
    margin-top: 50px;
     margin-left: 0px;
-  }
+  } */
   .wrapper3{
     width:100%; 
     display: flex;
@@ -121,7 +122,7 @@ section {
   
   li a {
     display: block;
-    color: white;
+    color: rgb(19, 18, 18);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -132,7 +133,17 @@ section {
     background-color: #111;
   }
   .active {
-    background-color: #4CAF50;
+    background-color: #c5293e;
+  }
+  .contentBody{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 4%;
+  }
+  .section4{
+    margin: 20px;
+
   }
   /* div {
     background-color: rgb(145, 2, 0, 0.4);
