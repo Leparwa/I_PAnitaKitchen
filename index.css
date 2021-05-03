@@ -3,7 +3,7 @@ body{
     margin: 8px;
 }
 .Wrapper{
-    background:url(./projectAssets/fastFood1.jpg); 
+    background:url(./projectAssets/backgrounds-20210503T131634Z-001/backgrounds/landing.jpg); 
     width:100%; 
     height:400px;
     background-repeat: no-repeat;
@@ -11,10 +11,8 @@ body{
 }
 
 .backgroundImage{
-    
     display: flex;
     justify-content: center;
-    background-color:rgba(231, 33, 59, 0.4); 
     width:100%; 
     height:100%;
 }
@@ -86,7 +84,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    background-color: rgb(0 0 0 / 79%);
+    background: url(./projectAssets/backgrounds-20210503T131634Z-001/backgrounds/foodsBg.jpg);
   }
   .drinks{
   display: block;
@@ -160,25 +158,130 @@ section {
   ul{
     background-color: gray;
   }
-  .wrapper5, .footerBackgroundColor{
-    width:100%; 
-    height:400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .contactUsForm{
-        
-    display: flex;
-    justify-content: center;
-    background-color:rgba(231, 33, 59, 0.4); 
-    width:100%; 
-    height:50%;
-  }
-  .socialMedia{
-    margin-top: 0%;
-    min-height: 70%;
-    background-color: red;
-  }
+  
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+  display: flex;
+  justify-content: center;
+	background-color: #bd1717;
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-top{
+  background-image: url(./projectAssets/backgrounds-20210503T131634Z-001/backgrounds/subscribe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+	vertical-align: top;
+
+}
+.footer-distributed .footer-center{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+
+
+
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
   /* div {
     background-color: rgb(145, 2, 0, 0.4);
     width:319px; 
