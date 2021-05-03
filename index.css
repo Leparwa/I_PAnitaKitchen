@@ -77,7 +77,57 @@ section {
     height:200px;
     background-repeat: no-repeat;
   }
+  .container2{
+    margin-top: 10%;
+    background:url(./projectAssets/fastFood1.jpg); 
+    display: flex;
+    width: 70%;
+    background-color:rgba(231, 33, 59, 0.4); 
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+  }
+  .drinks{
+    display: flex;
+    justify-content: center;
+    height:60%;
+  }
+  .wrapper3{
+    width:100%; 
+    display: flex;
+    justify-content: center;
+    height:400px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
   
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
   /* div {
     background-color: rgb(145, 2, 0, 0.4);
     width:319px; 
