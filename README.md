@@ -16,7 +16,7 @@ HTML and CSS
 kevin.leparwa@student.moringaschool.com
 
 ##My gh-pages link
-[https://github.com/Leparwa/I_PAnitaKitchen]
+[https://leparwa.github.io/I_PAnitaKitchen/]
 ### License
 *Licensed under the [MIT LICENSE](LICENSE.txt)*
 Copyright (c) 2021 **Leresi Kevin Leparwa*
